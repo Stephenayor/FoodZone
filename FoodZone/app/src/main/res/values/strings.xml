@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">FoodZone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_textview">Sign up</string>
+    <string name="full_name">Full Name</string>
+    <string name="signUp_email_edit_text">Email</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up_confirm_password">Confirm Password</string>
+    <string name="have_an_account">Have an Account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="admin_checkbox_text">ADMIN</string>
+    <string name="user_checkbox_text">USER</string>
+    <string name="sign_upbutton_in_login">Sign up</string>
+    <string name="dont_have_an_account_sign_in">Don\'t Have an Account?</string>
+    <string name="login_password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_email_error">Email Error</string>
+    <string name="login_password_error">Password Error</string>
+    <string name="loginfragment_edittext_email_hint">Email</string>
 </resources>

@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/drawable/button_background.xml" value="0.167" />
         <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/drawable/circle_background.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/drawable/edit_text_background.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/drawable/edit_text_bg.xml" value="0.167" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/activity_admin.xml" value="0.2546875" />
         <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
         <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/activity_splash_screen.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/activity_user.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/fragment_admin_home.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/fragment_admin_side.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/fragment_login.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/fragment_sign_up.xml" value="0.2546875" />
+        <entry key="..\:/Users/USER-PC/Documents/GitHub/FoodZone/app/src/main/res/layout/fragment_test.xml" value="0.2546875" />
       </map>
     </option>
   </component>

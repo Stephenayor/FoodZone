@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodzone.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_adminActivity"
+            app:destination="@id/adminActivity" />
+        <action
+            android:id="@+id/action_loginFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.foodzone.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_adminActivity"
+            app:destination="@id/adminActivity" />
+        <action
+            android:id="@+id/action_signUpFragment_to_userActivity"
+            app:destination="@id/userActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/adminActivity"
+        android:name="com.example.foodzone.AdminActivity"
+        android:label="activity_admin"
+        tools:layout="@layout/activity_admin" />
+    <activity
+        android:id="@+id/userActivity"
+        android:name="com.example.foodzone.UserActivity"
+        android:label="activity_user"
+        tools:layout="@layout/activity_user" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.foodzone.AdminSideFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_admin_side" />
+
+    <include app:graph="@navigation/nav_admin_side"/>
+    <fragment
+        android:id="@+id/adminHomeFragment"
+        android:name="com.example.foodzone.adminside.AdminHomeFragment"
+        android:label="fragment_admin_home"
+        tools:layout="@layout/fragment_admin_home" >
+        <action
+            android:id="@+id/action_adminHomeFragment_to_userActivity"
+            app:destination="@id/userActivity" />
+    </fragment>
+</navigation>
